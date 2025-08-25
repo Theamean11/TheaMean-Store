@@ -17,7 +17,7 @@ mail = Mail(app)
 def send_order_to_telegram(message):
 
     token = "8089780599:AAFWT9Ys4cNjxx6U167Bdt5z_1oKAQ_TNco"
-    chat_id = "1107325251"
+    chat_id = "800414261"
     url = f"https://api.telegram.org/bot{token}/sendMessage"
     payload = {
         "chat_id": chat_id,
